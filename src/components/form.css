@@ -1,0 +1,13 @@
+
+form{
+    width:500px;
+}
+input{
+    margin: 10px;
+}
+
+ #btnSubmit{
+    background-color:orange;
+    width:100px;
+    margin-left: 200px;
+}
