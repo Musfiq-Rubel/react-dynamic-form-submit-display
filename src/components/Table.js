@@ -5,7 +5,7 @@ import TableBody from './TableBody ';
 class Table extends Component {
     render() {
         return (
-            <table class="table table-hover table-primary mx-3" style={{width:'50%'}}>
+            <table className="table table-hover table-primary mx-3" >
                <TableHeader/>
                <TableBody bookingData={this.props.bookingData}/>
               

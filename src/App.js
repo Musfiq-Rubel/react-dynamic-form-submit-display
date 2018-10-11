@@ -19,8 +19,14 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+      <div id="form">
       <MyForm submitHandler={this.submitHandler}/>
+      </div>
+      <div id="table">
       <Table  bookingData={this.state.bookings} />
+      </div>
+      
+      
       </div>
     );
   }

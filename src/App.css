@@ -1,3 +1,15 @@
+#form{
+  width:500px;
+  float: left;
+}
+
+#table{
+  width: 60%;
+  float:right;
+  
+}
+
+
 .App {
   text-align: center;
 }
